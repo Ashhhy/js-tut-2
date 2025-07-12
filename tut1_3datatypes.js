@@ -87,3 +87,35 @@ Non-Primitive -
 
 */
 
+
+//Stack (Primitive data types) and Heap (Non-Primitive data types)
+
+let myName = "Ash"
+
+let myName2 = myName;
+myName2 = "Ashibh";
+
+console.log(myName); // Output: Ash
+console.log(myName2); // Output: Ashibh
+
+let user1 = {
+    name: "Ash",
+    age: 20
+}
+
+let user2 = user1;
+user2.name = "Ashibh";
+
+console.log(user1.name); // Output: Ashibh
+console.log(user2.name); // Output: Ashibh
+
+// In the first case, myName and myName2 are independent variables.
+// In the second case, user1 and user2 reference the same object in memory.
+
+// This illustrates the difference between primitive (call by value) and non-primitive (call by reference) data types in JavaScript.
+
+//-------------------------------------------------------------------------------------------
+
+
+
+
