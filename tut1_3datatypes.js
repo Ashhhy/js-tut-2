@@ -114,7 +114,11 @@ console.log(user2.name); // Output: Ashibh
 
 // This illustrates the difference between primitive (call by value) and non-primitive (call by reference) data types in JavaScript.
 
-//-------------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
 
 
 
